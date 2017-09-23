@@ -2,7 +2,7 @@
 var prerender = require('./lib');
 
 var server = prerender({
-    workers: 4,
+    workers: 1,
     iterations: process.env.PRERENDER_NUM_ITERATIONS,
     logRequests: true,
     pageDoneCheckTimeout: 9000,
