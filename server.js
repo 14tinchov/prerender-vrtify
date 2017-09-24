@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 var prerender = require('./lib');
+var WORKERS = process.env.WEB_CONCURRENCY || 1;
 
 var server = prerender({
-    workers: 3,
+    workers: WORKERS,
     iterations: process.env.PRERENDER_NUM_ITERATIONS,
     logRequests: true,
     pageDoneCheckTimeout: 9000,
