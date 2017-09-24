@@ -11,7 +11,7 @@ var server = prerender({
     // waitAfterLastRequest: 50000,
     // jsTimeout: 50000,
     // jsCheckTimeout: 50000,
-    evaluateJavascriptCheckTimeout: 30000
+    evaluateJavascriptCheckTimeout: 100000
 });
 
 
