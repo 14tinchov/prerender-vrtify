@@ -6,7 +6,7 @@ var server = prerender({
     workers: WORKERS,
     iterations: process.env.PRERENDER_NUM_ITERATIONS,
     logRequests: true,
-    pageDoneCheckTimeout: 9000,
+    pageDoneCheckTimeout: 10000,
     resourceDownloadTimeout: 5000,
     resourceDownloadTimeout: 5000,
     waitAfterLastRequest: 5000,
