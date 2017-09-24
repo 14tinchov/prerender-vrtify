@@ -8,10 +8,10 @@ var server = prerender({
     logRequests: true,
     pageDoneCheckTimeout: 50000,
     resourceDownloadTimeout: 100000,
-    waitAfterLastRequest: 50000,
-    jsTimeout: 50000,
-    jsCheckTimeout: 50000,
-    evaluateJavascriptCheckTimeout: 50000
+    // waitAfterLastRequest: 50000,
+    // jsTimeout: 50000,
+    // jsCheckTimeout: 50000,
+    evaluateJavascriptCheckTimeout: 30000
 });
 
 
