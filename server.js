@@ -7,7 +7,7 @@ var server = prerender({
     iterations: process.env.PRERENDER_NUM_ITERATIONS,
     logRequests: true,
     // resourceDownloadTimeout: 200000
-    pageDoneCheckTimeout: 15000,
+    pageDoneCheckTimeout: 200,
     // resourceDownloadTimeout: 100000,
     // waitAfterLastRequest: 50000,
     // jsTimeout: 50000,
