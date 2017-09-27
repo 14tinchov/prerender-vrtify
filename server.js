@@ -5,9 +5,7 @@ var WORKERS = process.env.WEB_CONCURRENCY || 1;
 var server = prerender({
     workers: WORKERS,
     iterations: process.env.PRERENDER_NUM_ITERATIONS,
-    logRequests: true,
-    resourceDownloadTimeout: 9000,
-    pageDoneCheckTimeout: 9000
+    logRequests: true
 });
 
 
