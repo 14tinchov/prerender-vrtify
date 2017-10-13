@@ -15,7 +15,7 @@ server.use(prerender.sendPrerenderHeader());
 server.use(prerender.blacklist());
 server.use(prerender.logger());
 server.use(prerender.removeScriptTags());
-server.use(require('prerender-redis-cache'));
+// server.use(require('prerender-redis-cache'));
 // server.use(prerender.httpHeaders());
 // server.use(prerender.inMemoryHtmlCache());
 // server.use(prerender.s3HtmlCache());
